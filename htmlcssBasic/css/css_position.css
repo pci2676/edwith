@@ -1,0 +1,33 @@
+.lyrics{
+  height: 3000px;
+}
+
+.lyrics>div {
+  border: 3px solid green;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  position: static;
+}
+
+.lyrics>div:nth-child(2) {
+  color: red;
+  top: 40px;
+  left: 40px;
+  position: relative;
+}
+
+.lyrics>div:nth-child(3){
+  color: blue;
+  top: 10px;
+  left: 20px;
+  position: absolute;
+}
+/*
+absolute = static이 아닌 녀석을 기준으로 잡고 포지션을 잡음
+*/
+.lyrics>div:nth-child(4){
+  color: yellow;
+  left: 50px;
+  position: fixed;
+}

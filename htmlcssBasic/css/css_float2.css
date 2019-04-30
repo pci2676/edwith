@@ -1,0 +1,32 @@
+.lyrics {
+  background-color: grey;
+  padding: 20px;
+  width: 300px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/*
+overflow로 자식의 float를 가둬둘수 있음
+*/
+
+.lyrics>div {
+  background-color: black;
+  color: white;
+  border: 3px solid green;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  float: left;
+}
+
+footer {
+  width:300px;
+  height: 100px;
+  margin-top: 20px;
+  background-color: yellow;
+  clear: left;
+}
+/*
+clear로 float된거를 인식한다.
+*/
