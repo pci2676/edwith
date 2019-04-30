@@ -1,0 +1,24 @@
+.lyrics {
+  background-color: grey;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/*
+overflow로 자식의 float를 가둬둘수 있음
+*/
+
+.lyrics>div {
+  flex-grow: 1;
+  background-color: black;
+  color: white;
+  border: 3px solid green;
+  height: 20px;
+  margin: 10px;
+}
+
+/*
+clear로 float된거를 인식한다.
+*/

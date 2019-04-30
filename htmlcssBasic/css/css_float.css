@@ -1,0 +1,16 @@
+.lyrics{
+  height: 3000px;
+}
+
+.lyrics>div {
+  border: 3px solid green;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  float: left;
+}
+
+.lyrics>div:nth-child(3) {
+  color: red;
+  float: right;
+}
