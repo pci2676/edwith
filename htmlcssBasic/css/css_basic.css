@@ -1,4 +1,32 @@
-div > p {
-  color : red;
-  border: 1px solid slategray;
+.wrap {
+  width: 400px;
+  height: 200px;
+  border: 1px solid gray;
+  padding: 1rem;
+}
+.content {
+  width: 200px;
+  height: 100px;
+  border: 1px solid gray;
+  margin: 0px auto;
+}
+.content li {
+  list-style: none;
+}
+footer li {
+  color: red;
+}
+footer ul {
+  width: 200px;
+  height: 100px;
+  border: 1px solid gray;
+  margin: 0px auto;
+  margin-top: 12px;
+}
+.wrap > h3 {
+  text-align: center;
+  color: #5d1;
+}
+.content li a {
+  color: #5d1;
 }
